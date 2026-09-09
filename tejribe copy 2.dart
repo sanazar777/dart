@@ -1,0 +1,30 @@
+void main(List<String> args) {
+  List <String> studenst = ['nazar', 'merdan', 'Oraz'];
+   List<int> yashlary = [1,2,3];
+  print(yashlary);
+  yashlary.add(15);
+  print(yashlary);
+  yashlary.remove(1);
+  print(yashlary);
+  yashlary.removeAt(0);
+ print(yashlary);
+ final firstyashlary = yashlary.first;
+ print(firstyashlary);
+ yashlary [0] = 99;
+  print(yashlary);
+  print(studenst);
+    yashlary.addAll([1 ,2,3,4,5,6,7,8,9]);
+    print(yashlary.length);
+    print(yashlary.contains(3));
+    print(yashlary);
+    yashlary.clear();
+    print(yashlary);
+    print(yashlary.indexOf(99));
+    // final taltplar = studenst.where((element) => element== 'nazar',);
+    final taltplar = studenst.where((element) => true).toList();
+    print(taltplar);
+    final Set talyplar1 =  {'nazar', 'merdan', 'oraz'};
+    talyplar1.add('value');
+    talyplar1.add('nazar');
+    print(talyplar1);
+}
